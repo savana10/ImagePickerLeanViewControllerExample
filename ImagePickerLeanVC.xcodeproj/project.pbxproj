@@ -15,18 +15,12 @@
 		96DD84B71BCFE5AC0027C096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DD84B61BCFE5AC0027C096 /* Assets.xcassets */; };
 		96DD84BA1BCFE5AD0027C096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD84B81BCFE5AD0027C096 /* LaunchScreen.storyboard */; };
 		96DD84C51BCFE5B10027C096 /* ImagePickerLeanVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD84C41BCFE5B10027C096 /* ImagePickerLeanVCTests.m */; };
-		96DD84D01BCFE5B10027C096 /* ImagePickerLeanVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD84CF1BCFE5B10027C096 /* ImagePickerLeanVCUITests.m */; };
+		96DD84DF1BCFE6000027C096 /* TakeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD84DD1BCFE6000027C096 /* TakeImage.m */; settings = {ASSET_TAGS = (); }; };
+		96DD84E21BCFEFE80027C096 /* ImageDelegeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD84E11BCFEFE80027C096 /* ImageDelegeVC.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		96DD84C11BCFE5B10027C096 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96DD849C1BCFE5AA0027C096 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96DD84A31BCFE5AA0027C096;
-			remoteInfo = ImagePickerLeanVC;
-		};
-		96DD84CC1BCFE5B10027C096 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 96DD849C1BCFE5AA0027C096 /* Project object */;
 			proxyType = 1;
@@ -50,9 +44,12 @@
 		96DD84C01BCFE5B10027C096 /* ImagePickerLeanVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerLeanVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD84C41BCFE5B10027C096 /* ImagePickerLeanVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerLeanVCTests.m; sourceTree = "<group>"; };
 		96DD84C61BCFE5B10027C096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DD84CB1BCFE5B10027C096 /* ImagePickerLeanVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerLeanVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD84CF1BCFE5B10027C096 /* ImagePickerLeanVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerLeanVCUITests.m; sourceTree = "<group>"; };
 		96DD84D11BCFE5B10027C096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DD84DD1BCFE6000027C096 /* TakeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeImage.m; sourceTree = "<group>"; };
+		96DD84DE1BCFE6000027C096 /* TakeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeImage.h; sourceTree = "<group>"; };
+		96DD84E01BCFEFE80027C096 /* ImageDelegeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDelegeVC.h; sourceTree = "<group>"; };
+		96DD84E11BCFEFE80027C096 /* ImageDelegeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDelegeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +61,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		96DD84BD1BCFE5B10027C096 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96DD84C81BCFE5B10027C096 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,7 +85,6 @@
 			children = (
 				96DD84A41BCFE5AA0027C096 /* ImagePickerLeanVC.app */,
 				96DD84C01BCFE5B10027C096 /* ImagePickerLeanVCTests.xctest */,
-				96DD84CB1BCFE5B10027C096 /* ImagePickerLeanVCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +97,10 @@
 				96DD84AD1BCFE5AB0027C096 /* ViewController.h */,
 				96DD84AE1BCFE5AB0027C096 /* ViewController.m */,
 				96DD84B01BCFE5AB0027C096 /* Main.storyboard */,
+				96DD84E01BCFEFE80027C096 /* ImageDelegeVC.h */,
+				96DD84E11BCFEFE80027C096 /* ImageDelegeVC.m */,
+				96DD84DD1BCFE6000027C096 /* TakeImage.m */,
+				96DD84DE1BCFE6000027C096 /* TakeImage.h */,
 				96DD84B61BCFE5AC0027C096 /* Assets.xcassets */,
 				96DD84B81BCFE5AD0027C096 /* LaunchScreen.storyboard */,
 				96DD84BB1BCFE5AD0027C096 /* Info.plist */,
@@ -181,24 +174,6 @@
 			productReference = 96DD84C01BCFE5B10027C096 /* ImagePickerLeanVCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96DD84CA1BCFE5B10027C096 /* ImagePickerLeanVCUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96DD84DA1BCFE5B10027C096 /* Build configuration list for PBXNativeTarget "ImagePickerLeanVCUITests" */;
-			buildPhases = (
-				96DD84C71BCFE5B10027C096 /* Sources */,
-				96DD84C81BCFE5B10027C096 /* Frameworks */,
-				96DD84C91BCFE5B10027C096 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96DD84CD1BCFE5B10027C096 /* PBXTargetDependency */,
-			);
-			name = ImagePickerLeanVCUITests;
-			productName = ImagePickerLeanVCUITests;
-			productReference = 96DD84CB1BCFE5B10027C096 /* ImagePickerLeanVCUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,10 +187,6 @@
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					96DD84BF1BCFE5B10027C096 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 96DD84A31BCFE5AA0027C096;
-					};
-					96DD84CA1BCFE5B10027C096 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 96DD84A31BCFE5AA0027C096;
 					};
@@ -236,7 +207,6 @@
 			targets = (
 				96DD84A31BCFE5AA0027C096 /* ImagePickerLeanVC */,
 				96DD84BF1BCFE5B10027C096 /* ImagePickerLeanVCTests */,
-				96DD84CA1BCFE5B10027C096 /* ImagePickerLeanVCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +229,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96DD84C91BCFE5B10027C096 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DD84E21BCFEFE80027C096 /* ImageDelegeVC.m in Sources */,
+				96DD84DF1BCFE6000027C096 /* TakeImage.m in Sources */,
 				96DD84B51BCFE5AC0027C096 /* ImagePickerLeanVC.xcdatamodeld in Sources */,
 				96DD84AF1BCFE5AB0027C096 /* ViewController.m in Sources */,
 				96DD84AC1BCFE5AB0027C096 /* AppDelegate.m in Sources */,
@@ -288,14 +253,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96DD84C71BCFE5B10027C096 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96DD84D01BCFE5B10027C096 /* ImagePickerLeanVCUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -303,11 +260,6 @@
 			isa = PBXTargetDependency;
 			target = 96DD84A31BCFE5AA0027C096 /* ImagePickerLeanVC */;
 			targetProxy = 96DD84C11BCFE5B10027C096 /* PBXContainerItemProxy */;
-		};
-		96DD84CD1BCFE5B10027C096 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96DD84A31BCFE5AA0027C096 /* ImagePickerLeanVC */;
-			targetProxy = 96DD84CC1BCFE5B10027C096 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImagePickerLeanVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.savana.ImagePickerLeanVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImagePickerLeanVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.savana.ImagePickerLeanVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,30 +411,6 @@
 			};
 			name = Release;
 		};
-		96DD84DB1BCFE5B10027C096 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImagePickerLeanVCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.savana.ImagePickerLeanVCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ImagePickerLeanVC;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		96DD84DC1BCFE5B10027C096 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImagePickerLeanVCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.savana.ImagePickerLeanVCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ImagePickerLeanVC;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,14 +436,6 @@
 			buildConfigurations = (
 				96DD84D81BCFE5B10027C096 /* Debug */,
 				96DD84D91BCFE5B10027C096 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		96DD84DA1BCFE5B10027C096 /* Build configuration list for PBXNativeTarget "ImagePickerLeanVCUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96DD84DB1BCFE5B10027C096 /* Debug */,
-				96DD84DC1BCFE5B10027C096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
